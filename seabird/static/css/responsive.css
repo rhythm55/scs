@@ -1,0 +1,247 @@
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) and (max-width: 1299px) {}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+     .cs-container h1{
+         font-size: 85px;
+        padding-top: 30px;
+    }
+    
+    .logo{
+        width: 300px;
+        height: 260px;
+        margin: 40px auto;
+    }
+    
+    .logo img{
+        width: 200px;
+        height: 190px;
+    }
+    
+    h1{
+        font-size:  56px;
+    }
+    
+    h3{
+        font-size: 50px;
+    }
+    
+    #clockdiv{
+        font-size: 35px;
+    }
+    
+    #clockdiv > div{
+        padding: 25px;
+    }
+    
+    #clockdiv div > span{
+	padding: 25px 20px;
+    }
+    
+    .smalltext{
+	padding-top: 10px;
+	font-size: 28px;
+    }
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .cs-container h1{
+         font-size: 65px;
+        padding-top: 30px;
+    }
+    
+    .logo{
+        margin: 30px auto;
+    }
+    
+    h1{
+        font-size: 35px;
+    }
+    
+    h3{
+        font-size: 30px;
+    }
+    
+    #clockdiv{
+        margin: 20px;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    
+    .logo{
+        width: 180px;
+        height: 160px;
+        margin: 20px auto;
+    }
+    
+    .logo img{
+        width: 120px;
+        height: 120px;
+    }
+    
+    h1 {
+    font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    #clockdiv > div{
+        padding: 5px 10px;
+    }
+    
+    #clockdiv div > span{
+	padding: 10px;
+    }
+    
+    .smalltext{
+	padding-top: 3px;
+	font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .cs-container h1{
+    font-size: 45px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 540px) {
+    
+     .cs-container h1{
+    font-size: 40px;
+    }
+    
+    h1 {
+    font-size: 24px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    
+     .cs-container h1{
+    font-size: 35px;
+         font-weight: 500;
+    }
+    
+    .cs-container{
+    border-bottom: 3px solid black;
+}
+}
+
+@media (max-width: 450px) {
+    
+    section{
+        height: 90%;
+    }
+    
+    .coming_content {
+        width: 90%;
+    }
+    
+    h1{
+     font-size: 25px;   
+    }
+    
+    h3{
+        font-size: 22px;
+    }
+    
+    .cs-container h1{
+    font-size: 38px;
+         font-weight: 500;
+        padding-top: 20px;
+    }
+    
+    .logo{
+        margin: 20px auto;
+    }
+    
+    #clockdiv{
+        margin: 10px;
+        font-size: 22px;
+    }
+    
+    #clockdiv > div{
+        padding: 10px 10px;    
+    }
+    
+    #clockdiv div > span{
+	    padding: 5px 8px;
+    }
+    
+    .smalltext{
+        font-size: 13px;
+    }
+    
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 370px) {
+    .cs-container h1{
+    font-size: 32px;
+        padding-bottom: 10px;
+    }
+    
+    h1{
+     font-size: 22px;   
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    #clockdiv{
+        font-size: 18px;
+    }
+    
+    #clockdiv > div{
+        padding: 5px 5px;    
+    }
+    
+    #clockdiv div > span{
+	    padding: px;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    section{
+        height: 88%;
+    }
+    
+    .cs-container h1{
+    font-size: 28px;
+        padding-top: 5px;
+    }
+    
+    h1{
+     font-size: 20px;   
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    #clockdiv{
+        font-size: 12px;
+    }
+}
