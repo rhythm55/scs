@@ -9,6 +9,11 @@ https://docs.djangoproject.com/en/2.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
+LLOWED_HOSTS = [
+     'www.seabirdenglishacademy.com',
+     'seabirdenglishacademy.com',
+     '159.89.171.223'
+]
 
 import os
 
@@ -129,6 +134,6 @@ STATIC_URL = '/static/'
 
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass
