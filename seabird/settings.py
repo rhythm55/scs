@@ -26,8 +26,9 @@ SECRET_KEY = '7bi-unz9j0m$#(h5pi_6wvaqr11b1z^6ncpd6vl!5ycg*t^-wi'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    # 'www.seabirdenglishacademy.com',
-    # 'seabirdenglishacademy.com'
+     'www.seabirdenglishacademy.com',
+     'seabirdenglishacademy.com',
+     '159.89.171.223'
 ]
 
 
