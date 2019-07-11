@@ -158,11 +158,13 @@
     }
     
     h1{
-     font-size: 25px;   
+     margin: 0px;
+     font-size: 20px;   
     }
     
     h3{
-        font-size: 22px;
+        margin: 0px;
+        font-size: 17px;
     }
     
     .cs-container h1{
@@ -172,11 +174,11 @@
     }
     
     .logo{
-        margin: 20px auto;
+        margin: 5px auto;
     }
     
     #clockdiv{
-        margin: 10px;
+        margin: 5px;
         font-size: 22px;
     }
     
@@ -203,11 +205,11 @@
     }
     
     h1{
-     font-size: 22px;   
+     font-size: 18px;   
     }
     
     h3{
-        font-size: 20px;
+        font-size: 16px;
     }
     
     #clockdiv{
@@ -235,11 +237,11 @@
     }
     
     h1{
-     font-size: 20px;   
+     font-size: 18px;   
     }
     
     h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     #clockdiv{
         font-size: 12px;
